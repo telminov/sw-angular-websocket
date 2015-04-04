@@ -1,0 +1,18 @@
+{
+  "name": "sw-angular-websocket",
+  "main": "./sw-angular-websocket.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/telminov/sw-angular-websocket",
+  "authors": [
+    "Telminov Sergey <telminov@soft-way.biz>"
+  ],
+  "description": "Soft Way company AngularJS websocket",
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": ""
+  }
+}
