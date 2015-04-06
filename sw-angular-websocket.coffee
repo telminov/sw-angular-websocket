@@ -87,6 +87,10 @@ angular.module('swWebSocket', [])
                 handler(event.data)
             this._startSend()
 
+        _onSocketMessage: (event) ->
+            for handler in this.messageHandlers
+                handler(event.data)
+
         _onSocketError: (event) ->
             for handler in this.errorHandlers
                 handler(event)
